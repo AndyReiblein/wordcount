@@ -1,0 +1,36 @@
+<HTML> 
+  
+
+  <form action="{% url 'count' %}">
+   
+        <head>
+
+            <title>
+              Andrew's WordCounter
+            </title>
+            
+
+        <head>
+
+        <body>
+            <form action = "/cgi-bin/hello_get.cgi" method = "get">
+              <div class="header"> 
+                <h1>WordCount</h1>
+                <p> fok alles </p>
+              </div>
+              <br />
+
+                <textarea rows = '40', cols = '60', name = 'Wordcount',
+                 contenteditable = "true" spellcheck = 'true' >
+                 Enter your text
+                </textarea>
+            </form>
+
+        </body>
+    
+      
+    
+  </form>
+</HTML>   
+
+<input type ="submit" value = 'count' />
